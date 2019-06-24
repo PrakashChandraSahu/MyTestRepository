@@ -1,0 +1,10 @@
+git init <directory>
+git clone <repo>
+git config user.name <name>
+git add <directory> git commit -m "<message>"
+git status
+git log
+git diff
+Create empty Git repo in speciﬁed directory. Run with no arguments to initialize the current directory as a git repository. Clone repo located at <repo> onto local machine.  Original repo can be located on the local ﬁlesystem or on a remote machine via HTTP or SSH. Deﬁne author name to be used for all commits in current repo. Devs commonly use --global ﬂag to set conﬁg options for current user. Stage all changes in <directory> for the next commit. Replace <directory> with a <ﬁle> to change a speciﬁc ﬁle. Commit the staged snapshot, but instead of launching a text editor, use <message> as the commit message.
+List which ﬁles are staged, unstaged, and untracked.
+Display the entire commit history using the default format. For customization see additional options. Show unstaged changes between your index and working directory
